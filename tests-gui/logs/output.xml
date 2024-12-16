@@ -1,69 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1.1 (Python 3.12.3 on linux)" generated="2024-12-15T22:38:52.987460" rpa="false" schemaversion="5">
+<robot generator="Robot 7.1.1 (Python 3.12.3 on linux)" generated="2024-12-15T23:06:19.092956" rpa="false" schemaversion="5">
 <suite id="s1" name="Signup" source="/home/ponto-ws/Documents/QAx/projects/Robot-eXpress/tests-gui/signup.robot">
 <test id="s1-t1" name="Deve poder cadastrar um novo usuario" line="9">
-<kw name="Name" owner="FakerLibrary">
-<msg time="2024-12-15T22:38:53.357754" level="INFO">${name} = Morgan Martinez</msg>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-12-15T23:06:19.498432" level="INFO">${name} = Lucas</msg>
 <var>${name}</var>
-<doc>:example: 'John Doe'</doc>
-<status status="PASS" start="2024-12-15T22:38:53.357183" elapsed="0.000609"/>
-</kw>
-<kw name="Free Email" owner="FakerLibrary">
-<msg time="2024-12-15T22:38:53.358482" level="INFO">${email} = tony30@gmail.com</msg>
-<var>${email}</var>
-<status status="PASS" start="2024-12-15T22:38:53.358064" elapsed="0.000447"/>
+<arg>Lucas</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-12-15T23:06:19.498169" elapsed="0.000300"/>
 </kw>
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2024-12-15T22:38:53.359274" level="INFO">${password} = pwd123</msg>
+<msg time="2024-12-15T23:06:19.499045" level="INFO">${email} = lucas@gmail.com</msg>
+<var>${email}</var>
+<arg>lucas@gmail.com</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2024-12-15T23:06:19.498729" elapsed="0.000344"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2024-12-15T23:06:19.499539" level="INFO">${password} = pwd123</msg>
 <var>${password}</var>
 <arg>pwd123</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2024-12-15T22:38:53.359107" elapsed="0.000197"/>
+<status status="PASS" start="2024-12-15T23:06:19.499310" elapsed="0.000255"/>
+</kw>
+<kw name="Remove user from database" owner="database">
+<msg time="2024-12-15T23:06:19.726442" level="INFO">removing user by lucas@gmail.com</msg>
+<arg>${email}</arg>
+<status status="PASS" start="2024-12-15T23:06:19.499771" elapsed="0.226969"/>
 </kw>
 <kw name="Start Session" owner="base">
 <kw name="New Browser" owner="Browser">
-<msg time="2024-12-15T22:38:53.361086" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/ponto-ws/Documents/QAx/projects/Robot-eXpress/tests-gui/logs/browser/traces/temp/6e0d2220-e0ff-4bbc-ac27-121904f6c429"}</msg>
-<msg time="2024-12-15T22:38:53.367665" level="INFO">Starting Browser process /home/ponto-ws/Documents/QAx/projects/Robot-eXpress/roboteXpress/lib/python3.12/site-packages/Browser/wrapper/index.js using port 44615</msg>
-<msg time="2024-12-15T22:38:53.367744" level="INFO">Node startup parameters: ['node', '/home/ponto-ws/Documents/QAx/projects/Robot-eXpress/roboteXpress/lib/python3.12/site-packages/Browser/wrapper/index.js', '44615']</msg>
-<msg time="2024-12-15T22:38:54.244217" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/ponto-ws/Documents/QAx/projects/Robot-eXpress/tests-gui/logs/browser/traces/temp/6e0d2220-e0ff-4bbc-ac27-121904f6c429"}</msg>
+<msg time="2024-12-15T23:06:19.731538" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/home/ponto-ws/Documents/QAx/projects/Robot-eXpress/tests-gui/logs/browser/traces/temp/c31c6657-6b03-44c4-b7be-79a685cf5713"}</msg>
+<msg time="2024-12-15T23:06:19.749142" level="INFO">Starting Browser process /home/ponto-ws/Documents/QAx/projects/Robot-eXpress/roboteXpress/lib/python3.12/site-packages/Browser/wrapper/index.js using port 43497</msg>
+<msg time="2024-12-15T23:06:19.749334" level="INFO">Node startup parameters: ['node', '/home/ponto-ws/Documents/QAx/projects/Robot-eXpress/roboteXpress/lib/python3.12/site-packages/Browser/wrapper/index.js', '43497']</msg>
+<msg time="2024-12-15T23:06:20.460183" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/home/ponto-ws/Documents/QAx/projects/Robot-eXpress/tests-gui/logs/browser/traces/temp/c31c6657-6b03-44c4-b7be-79a685cf5713"}</msg>
 <arg>browser=chromium</arg>
 <arg>headless=False</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2024-12-15T22:38:53.360035" elapsed="0.885201"/>
+<status status="PASS" start="2024-12-15T23:06:19.729084" elapsed="0.731259"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2024-12-15T22:38:54.963812" level="INFO">Successfully initialized new page object and opened url: http://localhost:3000/</msg>
-<msg time="2024-12-15T22:38:54.963899" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<msg time="2024-12-15T23:06:21.120721" level="INFO">Successfully initialized new page object and opened url: http://localhost:3000/</msg>
+<msg time="2024-12-15T23:06:21.120816" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
 <arg>http://localhost:3000/</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2024-12-15T22:38:54.245462" elapsed="0.718590"/>
+<status status="PASS" start="2024-12-15T23:06:20.460573" elapsed="0.660473"/>
 </kw>
-<status status="PASS" start="2024-12-15T22:38:53.359612" elapsed="1.604584"/>
+<status status="PASS" start="2024-12-15T23:06:19.727735" elapsed="1.393498"/>
 </kw>
 <kw name="Go To" owner="Browser">
-<msg time="2024-12-15T22:38:55.063947" level="INFO">Successfully opened URL http://localhost:3000/signup</msg>
+<msg time="2024-12-15T23:06:21.217055" level="INFO">Successfully opened URL http://localhost:3000/signup</msg>
 <arg>http://localhost:3000/signup</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Navigates to the given ``url``.</doc>
-<status status="PASS" start="2024-12-15T22:38:54.964467" elapsed="0.100127"/>
+<status status="PASS" start="2024-12-15T23:06:21.121551" elapsed="0.096042"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2024-12-15T22:38:55.138491" level="INFO">Waited for Element with selector xpath=//h1[text()="Faça seu cadastro"] at state visible</msg>
+<msg time="2024-12-15T23:06:21.270552" level="INFO">Waited for Element with selector xpath=//h1[text()="Faça seu cadastro"] at state visible</msg>
 <arg>xpath=//h1[text()="Faça seu cadastro"]</arg>
 <arg>visible</arg>
 <arg>5</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2024-12-15T22:38:55.064886" elapsed="0.074100"/>
+<status status="PASS" start="2024-12-15T23:06:21.217910" elapsed="0.052813"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2024-12-15T22:38:55.215492" level="INFO">Text: 'Faça seu cadastro'</msg>
+<msg time="2024-12-15T23:06:21.318697" level="INFO">Text: 'Faça seu cadastro'</msg>
 <arg>xpath=//h1[text()="Faça seu cadastro"]</arg>
 <arg>equal</arg>
 <arg>Faça seu cadastro</arg>
@@ -71,55 +79,55 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-12-15T22:38:55.139650" elapsed="0.076270"/>
+<status status="PASS" start="2024-12-15T23:06:21.272054" elapsed="0.046763"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2024-12-15T22:38:55.217070" level="INFO">Fills the text 'Morgan Martinez' in the given field.</msg>
+<msg time="2024-12-15T23:06:21.319731" level="INFO">Fills the text 'Lucas' in the given field.</msg>
 <arg>id=name</arg>
 <arg>${name}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2024-12-15T22:38:55.216439" elapsed="0.021530"/>
+<status status="PASS" start="2024-12-15T23:06:21.319150" elapsed="0.035708"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2024-12-15T22:38:55.242545" level="INFO">Fills the text 'tony30@gmail.com' in the given field.</msg>
+<msg time="2024-12-15T23:06:21.356142" level="INFO">Fills the text 'lucas@gmail.com' in the given field.</msg>
 <arg>id=email</arg>
 <arg>${email}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2024-12-15T22:38:55.239187" elapsed="0.050571"/>
+<status status="PASS" start="2024-12-15T23:06:21.355563" elapsed="0.026872"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2024-12-15T22:38:55.290578" level="INFO">Fills the text 'pwd123' in the given field.</msg>
+<msg time="2024-12-15T23:06:21.384018" level="INFO">Fills the text 'pwd123' in the given field.</msg>
 <arg>id=password</arg>
 <arg>${password}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2024-12-15T22:38:55.290057" elapsed="0.031706"/>
+<status status="PASS" start="2024-12-15T23:06:21.383002" elapsed="0.025112"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2024-12-15T22:38:55.323282" level="INFO">Clicks the element 'id=buttonSignup'.</msg>
+<msg time="2024-12-15T23:06:21.411744" level="INFO">Clicks the element 'id=buttonSignup'.</msg>
 <arg>id=buttonSignup</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-12-15T22:38:55.322227" elapsed="0.080458"/>
+<status status="PASS" start="2024-12-15T23:06:21.408998" elapsed="0.062790"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2024-12-15T22:38:55.534598" level="INFO">Waited for Element with selector css=.notice p at state visible</msg>
+<msg time="2024-12-15T23:06:21.563331" level="INFO">Waited for Element with selector css=.notice p at state visible</msg>
 <arg>css=.notice p</arg>
 <arg>visible</arg>
 <arg>5</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2024-12-15T22:38:55.403541" elapsed="0.131196"/>
+<status status="PASS" start="2024-12-15T23:06:21.472031" elapsed="0.091438"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2024-12-15T22:38:55.572480" level="INFO">Text: 'Boas vindas ao Mark85, o seu gerenciador de tarefas.'</msg>
+<msg time="2024-12-15T23:06:21.583980" level="INFO">Text: 'Boas vindas ao Mark85, o seu gerenciador de tarefas.'</msg>
 <arg>css=.notice p</arg>
 <arg>equal</arg>
 <arg>Boas vindas ao Mark85, o seu gerenciador de tarefas.</arg>
@@ -127,11 +135,11 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-12-15T22:38:55.534958" elapsed="0.037891"/>
+<status status="PASS" start="2024-12-15T23:06:21.563732" elapsed="0.020584"/>
 </kw>
-<status status="PASS" start="2024-12-15T22:38:53.356175" elapsed="2.217545"/>
+<status status="PASS" start="2024-12-15T23:06:19.496840" elapsed="2.088157"/>
 </test>
-<status status="PASS" start="2024-12-15T22:38:52.989135" elapsed="2.693183"/>
+<status status="PASS" start="2024-12-15T23:06:19.094037" elapsed="2.572258"/>
 </suite>
 <statistics>
 <total>

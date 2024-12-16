@@ -7,9 +7,11 @@ Resource    ../resources/base.robot
 
 *** Test Cases ***
 Deve poder cadastrar um novo usuario
-    ${name}    FakerLibrary.Name
-    ${email}    FakerLibrary.Free Email
+    ${name}    Set Variable    Lucas
+    ${email}    Set Variable    lucas@gmail.com
     ${password}    Set Variable    pwd123
+
+    Remove user from database    ${email}
 
     Start Session
     Go To    http://localhost:3000/signup

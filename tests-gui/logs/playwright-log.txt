@@ -1,59 +1,59 @@
-{"level":30,"time":"2024-12-16T01:38:53.874Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Listening on 44615"}
-(node:39520) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2024-12-16T02:06:20.157Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Listening on 43497"}
+(node:45575) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2024-12-16T01:38:53.912Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2024-12-16T01:38:54.238Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Adding browser to stack: chromium, version: 131.0.6778.33"}
-{"level":30,"time":"2024-12-16T01:38:54.242Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method newBrowser"}
-{"level":30,"time":"2024-12-16T01:38:54.241Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2024-12-16T01:38:54.251Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method newPage"}
-{"level":30,"time":"2024-12-16T01:38:54.251Z","pid":39520,"hostname":"pontows-ws-pc","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2024-12-16T01:38:54.273Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Changed active context"}
-{"level":30,"time":"2024-12-16T01:38:54.507Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Video path: undefined"}
-{"level":30,"time":"2024-12-16T01:38:54.510Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Changed active page"}
-{"level":30,"time":"2024-12-16T01:38:54.961Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method newPage"}
-{"level":30,"time":"2024-12-16T01:38:54.968Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method goTo"}
-{"level":30,"time":"2024-12-16T01:38:55.060Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method goTo"}
-{"level":30,"time":"2024-12-16T01:38:55.071Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2024-12-16T01:38:55.072Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
-{"level":30,"time":"2024-12-16T01:38:55.135Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2024-12-16T01:38:55.141Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method getText"}
-{"level":30,"time":"2024-12-16T01:38:55.141Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
-{"level":30,"time":"2024-12-16T01:38:55.213Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Retrieved text for element xpath=//h1[text()=\"Faça seu cadastro\"] containing Faça seu cadastro"}
-{"level":30,"time":"2024-12-16T01:38:55.213Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method getText"}
-{"level":30,"time":"2024-12-16T01:38:55.218Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method fillText"}
-{"level":30,"time":"2024-12-16T01:38:55.218Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Strict mode is enabled, find Locator with id=name in page."}
-{"level":30,"time":"2024-12-16T01:38:55.237Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method fillText"}
-{"level":30,"time":"2024-12-16T01:38:55.248Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method fillText"}
-{"level":30,"time":"2024-12-16T01:38:55.248Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Strict mode is enabled, find Locator with id=email in page."}
-{"level":30,"time":"2024-12-16T01:38:55.287Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method fillText"}
-{"level":30,"time":"2024-12-16T01:38:55.295Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method fillText"}
-{"level":30,"time":"2024-12-16T01:38:55.296Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Strict mode is enabled, find Locator with id=password in page."}
-{"level":30,"time":"2024-12-16T01:38:55.319Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method fillText"}
-{"level":30,"time":"2024-12-16T01:38:55.327Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method click"}
-{"level":30,"time":"2024-12-16T01:38:55.328Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Strict mode is enabled, find Locator with id=buttonSignup in page."}
-{"level":30,"time":"2024-12-16T01:38:55.400Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method click"}
-{"level":30,"time":"2024-12-16T01:38:55.415Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2024-12-16T01:38:55.416Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
-{"level":30,"time":"2024-12-16T01:38:55.532Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2024-12-16T01:38:55.537Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method getText"}
-{"level":30,"time":"2024-12-16T01:38:55.538Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
-{"level":30,"time":"2024-12-16T01:38:55.569Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Retrieved text for element css=.notice p containing Boas vindas ao Mark85, o seu gerenciador de tarefas."}
-{"level":30,"time":"2024-12-16T01:38:55.569Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method getText"}
-{"level":30,"time":"2024-12-16T01:38:55.582Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-12-16T01:38:55.591Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-12-16T01:38:55.593Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-12-16T01:38:55.599Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-12-16T01:38:55.602Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-12-16T01:38:55.605Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-12-16T01:38:55.611Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-12-16T01:38:55.616Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-12-16T01:38:55.620Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Changed active context"}
-{"level":30,"time":"2024-12-16T01:38:55.621Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Changing current active page: page=5b4b3530-428a-44d2-8a73-c99179eac5aa"}
-{"level":30,"time":"2024-12-16T01:38:55.621Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Changed active page"}
-{"level":30,"time":"2024-12-16T01:38:55.623Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method closeContext"}
-{"level":30,"time":"2024-12-16T01:38:55.635Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Removed page=51ce21fa-fe45-4b0f-b833-4f709ab2f1e7 from context=9e25a8b8-d36d-4eaf-849d-43b7a459156b page stack"}
-{"level":30,"time":"2024-12-16T01:38:55.676Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method closeContext"}
-{"level":30,"time":"2024-12-16T01:38:55.691Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2024-12-16T01:38:55.691Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2024-12-16T01:38:55.731Z","pid":39520,"hostname":"pontows-ws-pc","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2024-12-16T01:38:55.859Z","pid":39520,"hostname":"pontows-ws-pc","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2024-12-16T02:06:20.181Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-12-16T02:06:20.458Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Adding browser to stack: chromium, version: 131.0.6778.33"}
+{"level":30,"time":"2024-12-16T02:06:20.458Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-12-16T02:06:20.458Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-12-16T02:06:20.463Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-12-16T02:06:20.463Z","pid":45575,"hostname":"pontows-ws-pc","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-12-16T02:06:20.473Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Changed active context"}
+{"level":30,"time":"2024-12-16T02:06:20.665Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Video path: undefined"}
+{"level":30,"time":"2024-12-16T02:06:20.666Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Changed active page"}
+{"level":30,"time":"2024-12-16T02:06:21.118Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method newPage"}
+{"level":30,"time":"2024-12-16T02:06:21.125Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method goTo"}
+{"level":30,"time":"2024-12-16T02:06:21.215Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method goTo"}
+{"level":30,"time":"2024-12-16T02:06:21.223Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-16T02:06:21.225Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2024-12-16T02:06:21.268Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-16T02:06:21.277Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-16T02:06:21.277Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2024-12-16T02:06:21.316Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Retrieved text for element xpath=//h1[text()=\"Faça seu cadastro\"] containing Faça seu cadastro"}
+{"level":30,"time":"2024-12-16T02:06:21.316Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-16T02:06:21.323Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-16T02:06:21.323Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2024-12-16T02:06:21.353Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-16T02:06:21.359Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-16T02:06:21.359Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2024-12-16T02:06:21.380Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-16T02:06:21.386Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method fillText"}
+{"level":30,"time":"2024-12-16T02:06:21.386Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2024-12-16T02:06:21.404Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method fillText"}
+{"level":30,"time":"2024-12-16T02:06:21.415Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method click"}
+{"level":30,"time":"2024-12-16T02:06:21.416Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Strict mode is enabled, find Locator with id=buttonSignup in page."}
+{"level":30,"time":"2024-12-16T02:06:21.469Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method click"}
+{"level":30,"time":"2024-12-16T02:06:21.475Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-12-16T02:06:21.475Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2024-12-16T02:06:21.561Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-12-16T02:06:21.565Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method getText"}
+{"level":30,"time":"2024-12-16T02:06:21.565Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2024-12-16T02:06:21.582Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Retrieved text for element css=.notice p containing Boas vindas ao Mark85, o seu gerenciador de tarefas."}
+{"level":30,"time":"2024-12-16T02:06:21.583Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method getText"}
+{"level":30,"time":"2024-12-16T02:06:21.595Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-16T02:06:21.598Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-16T02:06:21.601Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-16T02:06:21.605Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-16T02:06:21.609Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-16T02:06:21.613Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-16T02:06:21.618Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-16T02:06:21.622Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-16T02:06:21.626Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Changed active context"}
+{"level":30,"time":"2024-12-16T02:06:21.626Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Changing current active page: page=3982eb47-f156-45a3-ba86-4d9c7b1f460b"}
+{"level":30,"time":"2024-12-16T02:06:21.626Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Changed active page"}
+{"level":30,"time":"2024-12-16T02:06:21.632Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-12-16T02:06:21.646Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Removed page=836ebc5b-318b-41f9-a4c4-2aaf7d26b773 from context=d15ff9fa-7679-45d1-8b68-39d402d389fd page stack"}
+{"level":30,"time":"2024-12-16T02:06:21.664Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-12-16T02:06:21.671Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-16T02:06:21.671Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-12-16T02:06:21.704Z","pid":45575,"hostname":"pontows-ws-pc","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-12-16T02:06:21.792Z","pid":45575,"hostname":"pontows-ws-pc","msg":"End of node method closeAllBrowsers"}
