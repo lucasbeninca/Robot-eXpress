@@ -93,6 +93,15 @@ Quando terminar, você pode desativar o ambiente virtual com o comando:
 
 ---
 
+### 9. Neste projeto utilizamos o conexção com o banco MongoDB logo precisamos instalar o mesmo
+
+- Para instalar o suporte ao mongo utilizamos o seguinte comando:
+
+ ```bash
+ pip install pymongo
+ ```
+ ---
+
 ### Exemplo de Seletores para Web Scraping/Automação
 
 Aqui estão exemplos de seletores úteis para automação de testes:

@@ -1,0 +1,111 @@
+{"level":30,"time":"2025-01-10T16:24:19.103Z","pid":224817,"hostname":"kali","msg":"Listening on 47347"}
+(node:224817) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-01-10T16:24:19.265Z","pid":224817,"hostname":"kali","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-01-10T16:24:19.701Z","pid":224817,"hostname":"kali","msg":"Adding browser to stack: chromium, version: 131.0.6778.33"}
+{"level":30,"time":"2025-01-10T16:24:19.701Z","pid":224817,"hostname":"kali","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-01-10T16:24:19.701Z","pid":224817,"hostname":"kali","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-01-10T16:24:19.707Z","pid":224817,"hostname":"kali","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-01-10T16:24:19.708Z","pid":224817,"hostname":"kali","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-01-10T16:24:19.720Z","pid":224817,"hostname":"kali","msg":"Changed active context"}
+{"level":30,"time":"2025-01-10T16:24:19.927Z","pid":224817,"hostname":"kali","msg":"Video path: undefined"}
+{"level":30,"time":"2025-01-10T16:24:19.927Z","pid":224817,"hostname":"kali","msg":"Changed active page"}
+{"level":30,"time":"2025-01-10T16:24:20.417Z","pid":224817,"hostname":"kali","msg":"End of node method newPage"}
+{"level":30,"time":"2025-01-10T16:24:20.428Z","pid":224817,"hostname":"kali","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-01-10T16:24:20.523Z","pid":224817,"hostname":"kali","msg":"End of node method goTo"}
+{"level":30,"time":"2025-01-10T16:24:20.533Z","pid":224817,"hostname":"kali","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-10T16:24:20.534Z","pid":224817,"hostname":"kali","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-10T16:24:20.572Z","pid":224817,"hostname":"kali","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-10T16:24:20.580Z","pid":224817,"hostname":"kali","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-10T16:24:20.580Z","pid":224817,"hostname":"kali","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-10T16:24:20.616Z","pid":224817,"hostname":"kali","msg":"Retrieved text for element xpath=//h1[text()=\"Faça seu cadastro\"] containing Faça seu cadastro"}
+{"level":30,"time":"2025-01-10T16:24:20.616Z","pid":224817,"hostname":"kali","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-10T16:24:20.620Z","pid":224817,"hostname":"kali","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-10T16:24:20.620Z","pid":224817,"hostname":"kali","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2025-01-10T16:24:20.647Z","pid":224817,"hostname":"kali","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-10T16:24:20.650Z","pid":224817,"hostname":"kali","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-10T16:24:20.651Z","pid":224817,"hostname":"kali","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2025-01-10T16:24:20.664Z","pid":224817,"hostname":"kali","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-10T16:24:20.669Z","pid":224817,"hostname":"kali","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-10T16:24:20.669Z","pid":224817,"hostname":"kali","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-01-10T16:24:20.680Z","pid":224817,"hostname":"kali","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-10T16:24:20.684Z","pid":224817,"hostname":"kali","msg":"Start of node method click"}
+{"level":30,"time":"2025-01-10T16:24:20.684Z","pid":224817,"hostname":"kali","msg":"Strict mode is enabled, find Locator with id=buttonSignup in page."}
+{"level":30,"time":"2025-01-10T16:24:20.745Z","pid":224817,"hostname":"kali","msg":"End of node method click"}
+{"level":30,"time":"2025-01-10T16:24:20.749Z","pid":224817,"hostname":"kali","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-10T16:24:20.749Z","pid":224817,"hostname":"kali","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-01-10T16:24:20.833Z","pid":224817,"hostname":"kali","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-10T16:24:20.836Z","pid":224817,"hostname":"kali","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-10T16:24:20.836Z","pid":224817,"hostname":"kali","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-01-10T16:24:20.850Z","pid":224817,"hostname":"kali","msg":"Retrieved text for element css=.notice p containing Boas vindas ao Mark85, o seu gerenciador de tarefas."}
+{"level":30,"time":"2025-01-10T16:24:20.850Z","pid":224817,"hostname":"kali","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-10T16:24:20.854Z","pid":224817,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:20.857Z","pid":224817,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:20.859Z","pid":224817,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:20.862Z","pid":224817,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:20.864Z","pid":224817,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:20.866Z","pid":224817,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:20.868Z","pid":224817,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:20.870Z","pid":224817,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:20.872Z","pid":224817,"hostname":"kali","msg":"Changed active context"}
+{"level":30,"time":"2025-01-10T16:24:20.872Z","pid":224817,"hostname":"kali","msg":"Changing current active page: page=d15980d9-a969-4886-83e7-05155f5c9f7c"}
+{"level":30,"time":"2025-01-10T16:24:20.872Z","pid":224817,"hostname":"kali","msg":"Changed active page"}
+{"level":30,"time":"2025-01-10T16:24:20.877Z","pid":224817,"hostname":"kali","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-01-10T16:24:20.885Z","pid":224817,"hostname":"kali","msg":"Removed page=3c48b132-7773-4d7e-a543-67620175a8d8 from context=14f9c74d-5aa4-42bb-b0a8-25714d5342a4 page stack"}
+{"level":30,"time":"2025-01-10T16:24:20.907Z","pid":224817,"hostname":"kali","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-01-10T16:24:20.910Z","pid":224817,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:20.911Z","pid":224817,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:20.978Z","pid":224817,"hostname":"kali","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-01-10T16:24:20.978Z","pid":224817,"hostname":"kali","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-01-10T16:24:20.990Z","pid":224817,"hostname":"kali","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-01-10T16:24:20.990Z","pid":224817,"hostname":"kali","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-01-10T16:24:21.014Z","pid":224817,"hostname":"kali","msg":"Changed active context"}
+{"level":30,"time":"2025-01-10T16:24:21.126Z","pid":224817,"hostname":"kali","msg":"Video path: undefined"}
+{"level":30,"time":"2025-01-10T16:24:21.126Z","pid":224817,"hostname":"kali","msg":"Changed active page"}
+{"level":30,"time":"2025-01-10T16:24:21.574Z","pid":224817,"hostname":"kali","msg":"End of node method newPage"}
+{"level":30,"time":"2025-01-10T16:24:21.602Z","pid":224817,"hostname":"kali","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-01-10T16:24:21.690Z","pid":224817,"hostname":"kali","msg":"End of node method goTo"}
+{"level":30,"time":"2025-01-10T16:24:21.696Z","pid":224817,"hostname":"kali","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-10T16:24:21.696Z","pid":224817,"hostname":"kali","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-10T16:24:21.739Z","pid":224817,"hostname":"kali","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-10T16:24:21.743Z","pid":224817,"hostname":"kali","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-10T16:24:21.745Z","pid":224817,"hostname":"kali","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-10T16:24:21.790Z","pid":224817,"hostname":"kali","msg":"Retrieved text for element xpath=//h1[text()=\"Faça seu cadastro\"] containing Faça seu cadastro"}
+{"level":30,"time":"2025-01-10T16:24:21.790Z","pid":224817,"hostname":"kali","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-10T16:24:21.796Z","pid":224817,"hostname":"kali","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-10T16:24:21.796Z","pid":224817,"hostname":"kali","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2025-01-10T16:24:21.815Z","pid":224817,"hostname":"kali","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-10T16:24:21.818Z","pid":224817,"hostname":"kali","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-10T16:24:21.818Z","pid":224817,"hostname":"kali","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2025-01-10T16:24:21.826Z","pid":224817,"hostname":"kali","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-10T16:24:21.833Z","pid":224817,"hostname":"kali","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-10T16:24:21.833Z","pid":224817,"hostname":"kali","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-01-10T16:24:21.842Z","pid":224817,"hostname":"kali","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-10T16:24:21.848Z","pid":224817,"hostname":"kali","msg":"Start of node method click"}
+{"level":30,"time":"2025-01-10T16:24:21.848Z","pid":224817,"hostname":"kali","msg":"Strict mode is enabled, find Locator with id=buttonSignup in page."}
+{"level":30,"time":"2025-01-10T16:24:21.904Z","pid":224817,"hostname":"kali","msg":"End of node method click"}
+{"level":30,"time":"2025-01-10T16:24:21.907Z","pid":224817,"hostname":"kali","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-10T16:24:21.907Z","pid":224817,"hostname":"kali","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-01-10T16:24:21.939Z","pid":224817,"hostname":"kali","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-10T16:24:21.942Z","pid":224817,"hostname":"kali","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-10T16:24:21.942Z","pid":224817,"hostname":"kali","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-01-10T16:24:21.958Z","pid":224817,"hostname":"kali","msg":"Retrieved text for element css=.notice p containing Oops! Já existe uma conta com o e-mail informado."}
+{"level":30,"time":"2025-01-10T16:24:21.958Z","pid":224817,"hostname":"kali","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-10T16:24:22.012Z","pid":224817,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:22.017Z","pid":224817,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:22.022Z","pid":224817,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:22.027Z","pid":224817,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:22.033Z","pid":224817,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:22.037Z","pid":224817,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:22.046Z","pid":224817,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:22.051Z","pid":224817,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:22.056Z","pid":224817,"hostname":"kali","msg":"Changed active context"}
+{"level":30,"time":"2025-01-10T16:24:22.056Z","pid":224817,"hostname":"kali","msg":"Changing current active page: page=315fcdd8-0847-41f6-a149-b4a002b5064f"}
+{"level":30,"time":"2025-01-10T16:24:22.056Z","pid":224817,"hostname":"kali","msg":"Changed active page"}
+{"level":30,"time":"2025-01-10T16:24:22.062Z","pid":224817,"hostname":"kali","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-01-10T16:24:22.085Z","pid":224817,"hostname":"kali","msg":"Removed page=d4f0c6f2-f29f-44a9-81de-2c850bd2cf4b from context=648ef818-3966-4715-a6d7-3b5fde578922 page stack"}
+{"level":30,"time":"2025-01-10T16:24:22.151Z","pid":224817,"hostname":"kali","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-01-10T16:24:22.163Z","pid":224817,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:22.164Z","pid":224817,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-10T16:24:22.187Z","pid":224817,"hostname":"kali","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-01-10T16:24:22.256Z","pid":224817,"hostname":"kali","msg":"End of node method closeAllBrowsers"}
