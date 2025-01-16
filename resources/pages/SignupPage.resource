@@ -27,3 +27,8 @@ notice should base
     
      Wait For Elements State    css=.notice p    visible    5
      Get Text                   css=.notice p    equal     ${expected_text}
+
+Alert should be
+    [Arguments]    ${expect_text} 
+     Wait For Elements State    css=.alert-error >> text=${expect_text} 
+    ...    visible    5

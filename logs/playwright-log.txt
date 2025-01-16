@@ -1,145 +1,508 @@
-{"level":30,"time":"2025-01-13T01:04:21.850Z","pid":269585,"hostname":"kali","msg":"Listening on 51673"}
-(node:269585) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-01-16T03:03:20.422Z","pid":28821,"hostname":"ponto","msg":"Listening on 44729"}
+(node:28821) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-01-13T01:04:21.923Z","pid":269585,"hostname":"kali","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-01-13T01:04:22.293Z","pid":269585,"hostname":"kali","msg":"Adding browser to stack: chromium, version: 131.0.6778.33"}
-{"level":30,"time":"2025-01-13T01:04:22.293Z","pid":269585,"hostname":"kali","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-01-13T01:04:22.293Z","pid":269585,"hostname":"kali","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-01-13T01:04:22.299Z","pid":269585,"hostname":"kali","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-01-13T01:04:22.299Z","pid":269585,"hostname":"kali","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-01-13T01:04:22.311Z","pid":269585,"hostname":"kali","msg":"Changed active context"}
-{"level":30,"time":"2025-01-13T01:04:22.497Z","pid":269585,"hostname":"kali","msg":"Video path: undefined"}
-{"level":30,"time":"2025-01-13T01:04:22.497Z","pid":269585,"hostname":"kali","msg":"Changed active page"}
-{"level":30,"time":"2025-01-13T01:04:22.915Z","pid":269585,"hostname":"kali","msg":"End of node method newPage"}
-{"level":30,"time":"2025-01-13T01:04:22.978Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:22.985Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:22.994Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:22.999Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:23.006Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:23.011Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:23.025Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:23.030Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:23.040Z","pid":269585,"hostname":"kali","msg":"Changed active context"}
-{"level":30,"time":"2025-01-13T01:04:23.041Z","pid":269585,"hostname":"kali","msg":"Changing current active page: page=d863d6ae-d69c-4eac-95f5-b34534b7070f"}
-{"level":30,"time":"2025-01-13T01:04:23.041Z","pid":269585,"hostname":"kali","msg":"Changed active page"}
-{"level":30,"time":"2025-01-13T01:04:23.050Z","pid":269585,"hostname":"kali","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-01-13T01:04:23.074Z","pid":269585,"hostname":"kali","msg":"Removed page=c0eded7b-0d97-4b3c-8371-75b2ec9ea39e from context=a9a90226-df97-4b7d-879a-c52689f97641 page stack"}
-{"level":30,"time":"2025-01-13T01:04:23.113Z","pid":269585,"hostname":"kali","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-01-13T01:04:23.135Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:23.136Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:23.357Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:23.358Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:23.360Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:23.360Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:23.363Z","pid":269585,"hostname":"kali","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2025-01-13T01:04:23.363Z","pid":269585,"hostname":"kali","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2025-01-13T01:04:23.365Z","pid":269585,"hostname":"kali","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-01-13T01:04:23.365Z","pid":269585,"hostname":"kali","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-01-13T01:04:23.370Z","pid":269585,"hostname":"kali","msg":"Changed active context"}
-{"level":30,"time":"2025-01-13T01:04:23.426Z","pid":269585,"hostname":"kali","msg":"Video path: undefined"}
-{"level":30,"time":"2025-01-13T01:04:23.426Z","pid":269585,"hostname":"kali","msg":"Changed active page"}
-{"level":30,"time":"2025-01-13T01:04:23.874Z","pid":269585,"hostname":"kali","msg":"End of node method newPage"}
-{"level":30,"time":"2025-01-13T01:04:24.121Z","pid":269585,"hostname":"kali","msg":"Start of node method goTo"}
-{"level":30,"time":"2025-01-13T01:04:24.190Z","pid":269585,"hostname":"kali","msg":"End of node method goTo"}
-{"level":30,"time":"2025-01-13T01:04:24.195Z","pid":269585,"hostname":"kali","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-01-13T01:04:24.195Z","pid":269585,"hostname":"kali","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
-{"level":30,"time":"2025-01-13T01:04:24.234Z","pid":269585,"hostname":"kali","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-01-13T01:04:24.237Z","pid":269585,"hostname":"kali","msg":"Start of node method getText"}
-{"level":30,"time":"2025-01-13T01:04:24.238Z","pid":269585,"hostname":"kali","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
-{"level":30,"time":"2025-01-13T01:04:24.273Z","pid":269585,"hostname":"kali","msg":"Retrieved text for element xpath=//h1[text()=\"Faça seu cadastro\"] containing Faça seu cadastro"}
-{"level":30,"time":"2025-01-13T01:04:24.273Z","pid":269585,"hostname":"kali","msg":"End of node method getText"}
-{"level":30,"time":"2025-01-13T01:04:24.279Z","pid":269585,"hostname":"kali","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-01-13T01:04:24.279Z","pid":269585,"hostname":"kali","msg":"Strict mode is enabled, find Locator with id=name in page."}
-{"level":30,"time":"2025-01-13T01:04:24.297Z","pid":269585,"hostname":"kali","msg":"End of node method fillText"}
-{"level":30,"time":"2025-01-13T01:04:24.300Z","pid":269585,"hostname":"kali","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-01-13T01:04:24.300Z","pid":269585,"hostname":"kali","msg":"Strict mode is enabled, find Locator with id=email in page."}
-{"level":30,"time":"2025-01-13T01:04:24.313Z","pid":269585,"hostname":"kali","msg":"End of node method fillText"}
-{"level":30,"time":"2025-01-13T01:04:24.317Z","pid":269585,"hostname":"kali","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-01-13T01:04:24.317Z","pid":269585,"hostname":"kali","msg":"Strict mode is enabled, find Locator with id=password in page."}
-{"level":30,"time":"2025-01-13T01:04:24.332Z","pid":269585,"hostname":"kali","msg":"End of node method fillText"}
-{"level":30,"time":"2025-01-13T01:04:24.335Z","pid":269585,"hostname":"kali","msg":"Start of node method click"}
-{"level":30,"time":"2025-01-13T01:04:24.335Z","pid":269585,"hostname":"kali","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
-{"level":30,"time":"2025-01-13T01:04:24.413Z","pid":269585,"hostname":"kali","msg":"End of node method click"}
-{"level":30,"time":"2025-01-13T01:04:24.418Z","pid":269585,"hostname":"kali","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-01-13T01:04:24.419Z","pid":269585,"hostname":"kali","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
-{"level":30,"time":"2025-01-13T01:04:24.716Z","pid":269585,"hostname":"kali","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-01-13T01:04:24.722Z","pid":269585,"hostname":"kali","msg":"Start of node method getText"}
-{"level":30,"time":"2025-01-13T01:04:24.722Z","pid":269585,"hostname":"kali","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
-{"level":30,"time":"2025-01-13T01:04:24.748Z","pid":269585,"hostname":"kali","msg":"Retrieved text for element css=.notice p containing Boas vindas ao Mark85, o seu gerenciador de tarefas."}
-{"level":30,"time":"2025-01-13T01:04:24.748Z","pid":269585,"hostname":"kali","msg":"End of node method getText"}
-{"level":30,"time":"2025-01-13T01:04:24.755Z","pid":269585,"hostname":"kali","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-01-13T01:04:24.755Z","pid":269585,"hostname":"kali","Take screenshot with options: ":{"path":"/home/userpontows/Documents/QAx/projetos/Robot-eXpress/logs/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-01-13T01:04:25.004Z","pid":269585,"hostname":"kali","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-01-13T01:04:25.011Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:25.013Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:25.015Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:25.017Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:25.018Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:25.020Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:25.022Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:25.026Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:25.027Z","pid":269585,"hostname":"kali","msg":"Changed active context"}
-{"level":30,"time":"2025-01-13T01:04:25.027Z","pid":269585,"hostname":"kali","msg":"Changing current active page: page=f8830a8a-d509-40e9-8e04-42bd30c31e82"}
-{"level":30,"time":"2025-01-13T01:04:25.027Z","pid":269585,"hostname":"kali","msg":"Changed active page"}
-{"level":30,"time":"2025-01-13T01:04:25.029Z","pid":269585,"hostname":"kali","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-01-13T01:04:25.034Z","pid":269585,"hostname":"kali","msg":"Removed page=c1a89d20-35b7-4e6d-a207-0b4b4fcd427d from context=b84386f3-2aae-4e42-82ac-38e248223ccd page stack"}
-{"level":30,"time":"2025-01-13T01:04:25.053Z","pid":269585,"hostname":"kali","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-01-13T01:04:25.057Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:25.058Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:25.061Z","pid":269585,"hostname":"kali","msg":"Start of node method switchBrowser"}
-{"level":30,"time":"2025-01-13T01:04:25.061Z","pid":269585,"hostname":"kali","msg":"End of node method switchBrowser"}
-{"level":30,"time":"2025-01-13T01:04:25.063Z","pid":269585,"hostname":"kali","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-01-13T01:04:25.063Z","pid":269585,"hostname":"kali","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-01-13T01:04:25.069Z","pid":269585,"hostname":"kali","msg":"Changed active context"}
-{"level":30,"time":"2025-01-13T01:04:25.132Z","pid":269585,"hostname":"kali","msg":"Video path: undefined"}
-{"level":30,"time":"2025-01-13T01:04:25.132Z","pid":269585,"hostname":"kali","msg":"Changed active page"}
-{"level":30,"time":"2025-01-13T01:04:25.554Z","pid":269585,"hostname":"kali","msg":"End of node method newPage"}
-{"level":30,"time":"2025-01-13T01:04:25.618Z","pid":269585,"hostname":"kali","msg":"Start of node method goTo"}
-{"level":30,"time":"2025-01-13T01:04:25.669Z","pid":269585,"hostname":"kali","msg":"End of node method goTo"}
-{"level":30,"time":"2025-01-13T01:04:25.672Z","pid":269585,"hostname":"kali","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-01-13T01:04:25.672Z","pid":269585,"hostname":"kali","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
-{"level":30,"time":"2025-01-13T01:04:25.702Z","pid":269585,"hostname":"kali","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-01-13T01:04:25.704Z","pid":269585,"hostname":"kali","msg":"Start of node method getText"}
-{"level":30,"time":"2025-01-13T01:04:25.704Z","pid":269585,"hostname":"kali","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
-{"level":30,"time":"2025-01-13T01:04:25.727Z","pid":269585,"hostname":"kali","msg":"End of node method getText"}
-{"level":30,"time":"2025-01-13T01:04:25.727Z","pid":269585,"hostname":"kali","msg":"Retrieved text for element xpath=//h1[text()=\"Faça seu cadastro\"] containing Faça seu cadastro"}
-{"level":30,"time":"2025-01-13T01:04:25.730Z","pid":269585,"hostname":"kali","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-01-13T01:04:25.730Z","pid":269585,"hostname":"kali","msg":"Strict mode is enabled, find Locator with id=name in page."}
-{"level":30,"time":"2025-01-13T01:04:25.743Z","pid":269585,"hostname":"kali","msg":"End of node method fillText"}
-{"level":30,"time":"2025-01-13T01:04:25.746Z","pid":269585,"hostname":"kali","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-01-13T01:04:25.746Z","pid":269585,"hostname":"kali","msg":"Strict mode is enabled, find Locator with id=email in page."}
-{"level":30,"time":"2025-01-13T01:04:25.754Z","pid":269585,"hostname":"kali","msg":"End of node method fillText"}
-{"level":30,"time":"2025-01-13T01:04:25.756Z","pid":269585,"hostname":"kali","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-01-13T01:04:25.756Z","pid":269585,"hostname":"kali","msg":"Strict mode is enabled, find Locator with id=password in page."}
-{"level":30,"time":"2025-01-13T01:04:25.766Z","pid":269585,"hostname":"kali","msg":"End of node method fillText"}
-{"level":30,"time":"2025-01-13T01:04:25.768Z","pid":269585,"hostname":"kali","msg":"Start of node method click"}
-{"level":30,"time":"2025-01-13T01:04:25.768Z","pid":269585,"hostname":"kali","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
-{"level":30,"time":"2025-01-13T01:04:25.849Z","pid":269585,"hostname":"kali","msg":"End of node method click"}
-{"level":30,"time":"2025-01-13T01:04:25.852Z","pid":269585,"hostname":"kali","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-01-13T01:04:25.852Z","pid":269585,"hostname":"kali","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
-{"level":30,"time":"2025-01-13T01:04:25.882Z","pid":269585,"hostname":"kali","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-01-13T01:04:25.884Z","pid":269585,"hostname":"kali","msg":"Start of node method getText"}
-{"level":30,"time":"2025-01-13T01:04:25.884Z","pid":269585,"hostname":"kali","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
-{"level":30,"time":"2025-01-13T01:04:25.895Z","pid":269585,"hostname":"kali","msg":"Retrieved text for element css=.notice p containing Oops! Já existe uma conta com o e-mail informado."}
-{"level":30,"time":"2025-01-13T01:04:25.895Z","pid":269585,"hostname":"kali","msg":"End of node method getText"}
-{"level":30,"time":"2025-01-13T01:04:25.925Z","pid":269585,"hostname":"kali","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-01-13T01:04:25.925Z","pid":269585,"hostname":"kali","Take screenshot with options: ":{"path":"/home/userpontows/Documents/QAx/projetos/Robot-eXpress/logs/browser/screenshot/robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-01-13T01:04:26.161Z","pid":269585,"hostname":"kali","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-01-13T01:04:26.166Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:26.168Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:26.169Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:26.171Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:26.173Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:26.175Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:26.177Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:26.179Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:26.180Z","pid":269585,"hostname":"kali","msg":"Changed active context"}
-{"level":30,"time":"2025-01-13T01:04:26.180Z","pid":269585,"hostname":"kali","msg":"Changing current active page: page=d61232fa-c587-46e1-bee3-ec1a0575df9a"}
-{"level":30,"time":"2025-01-13T01:04:26.180Z","pid":269585,"hostname":"kali","msg":"Changed active page"}
-{"level":30,"time":"2025-01-13T01:04:26.183Z","pid":269585,"hostname":"kali","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-01-13T01:04:26.187Z","pid":269585,"hostname":"kali","msg":"Removed page=0a34265c-c181-4f05-882e-aa8368f6c673 from context=f6094ab5-d88b-4fd0-b8a1-062da8b0c1f9 page stack"}
-{"level":30,"time":"2025-01-13T01:04:26.207Z","pid":269585,"hostname":"kali","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-01-13T01:04:26.214Z","pid":269585,"hostname":"kali","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:26.214Z","pid":269585,"hostname":"kali","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-13T01:04:26.623Z","pid":269585,"hostname":"kali","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-01-13T01:04:26.734Z","pid":269585,"hostname":"kali","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-01-16T03:03:20.474Z","pid":28821,"hostname":"ponto","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-01-16T03:03:20.738Z","pid":28821,"hostname":"ponto","msg":"Adding browser to stack: chromium, version: 131.0.6778.33"}
+{"level":30,"time":"2025-01-16T03:03:20.739Z","pid":28821,"hostname":"ponto","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-01-16T03:03:20.739Z","pid":28821,"hostname":"ponto","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-01-16T03:03:20.745Z","pid":28821,"hostname":"ponto","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:20.745Z","pid":28821,"hostname":"ponto","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-01-16T03:03:20.760Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:20.909Z","pid":28821,"hostname":"ponto","msg":"Video path: undefined"}
+{"level":30,"time":"2025-01-16T03:03:20.910Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:21.330Z","pid":28821,"hostname":"ponto","msg":"End of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:21.397Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:21.405Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:21.413Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:21.418Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:21.427Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:21.431Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:21.443Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:21.447Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:21.458Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:21.459Z","pid":28821,"hostname":"ponto","msg":"Changing current active page: page=f6f91648-0eed-41b5-81eb-578c3bd88509"}
+{"level":30,"time":"2025-01-16T03:03:21.459Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:21.467Z","pid":28821,"hostname":"ponto","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:21.494Z","pid":28821,"hostname":"ponto","msg":"Removed page=0874c2fa-12b4-4334-bcf7-104bcb40a1b2 from context=60430db2-2019-4bcd-9aad-7bf4c0586494 page stack"}
+{"level":30,"time":"2025-01-16T03:03:21.536Z","pid":28821,"hostname":"ponto","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:21.567Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:21.568Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:21.772Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:21.772Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:21.775Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:21.775Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:21.781Z","pid":28821,"hostname":"ponto","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:21.781Z","pid":28821,"hostname":"ponto","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:21.784Z","pid":28821,"hostname":"ponto","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:21.784Z","pid":28821,"hostname":"ponto","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-01-16T03:03:21.789Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:21.857Z","pid":28821,"hostname":"ponto","msg":"Video path: undefined"}
+{"level":30,"time":"2025-01-16T03:03:21.858Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:22.281Z","pid":28821,"hostname":"ponto","msg":"End of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:22.529Z","pid":28821,"hostname":"ponto","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:22.598Z","pid":28821,"hostname":"ponto","msg":"End of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:22.601Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:22.604Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:22.631Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:22.634Z","pid":28821,"hostname":"ponto","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:22.634Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:22.660Z","pid":28821,"hostname":"ponto","msg":"Retrieved text for element xpath=//h1[text()=\"Faça seu cadastro\"] containing Faça seu cadastro"}
+{"level":30,"time":"2025-01-16T03:03:22.660Z","pid":28821,"hostname":"ponto","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:22.663Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:22.663Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2025-01-16T03:03:22.680Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:22.682Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:22.682Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2025-01-16T03:03:22.692Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:22.694Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:22.694Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-01-16T03:03:22.704Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:22.707Z","pid":28821,"hostname":"ponto","msg":"Start of node method click"}
+{"level":30,"time":"2025-01-16T03:03:22.707Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-01-16T03:03:22.760Z","pid":28821,"hostname":"ponto","msg":"End of node method click"}
+{"level":30,"time":"2025-01-16T03:03:22.764Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:22.764Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-01-16T03:03:22.956Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:22.964Z","pid":28821,"hostname":"ponto","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:22.964Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-01-16T03:03:22.999Z","pid":28821,"hostname":"ponto","msg":"Retrieved text for element css=.notice p containing Boas vindas ao Mark85, o seu gerenciador de tarefas."}
+{"level":30,"time":"2025-01-16T03:03:23.000Z","pid":28821,"hostname":"ponto","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:23.011Z","pid":28821,"hostname":"ponto","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:23.011Z","pid":28821,"hostname":"ponto","Take screenshot with options: ":{"path":"/home/pontouser/Documents/QAx/projects/Robot-eXpress/logs/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-01-16T03:03:23.276Z","pid":28821,"hostname":"ponto","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:23.281Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:23.283Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:23.285Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:23.287Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:23.288Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:23.290Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:23.292Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:23.294Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:23.296Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:23.296Z","pid":28821,"hostname":"ponto","msg":"Changing current active page: page=f87ab4e3-55b6-42ea-8001-8786818a9707"}
+{"level":30,"time":"2025-01-16T03:03:23.296Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:23.298Z","pid":28821,"hostname":"ponto","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:23.302Z","pid":28821,"hostname":"ponto","msg":"Removed page=c4da04ef-e284-4579-b7d9-b2316a64819f from context=a14b4cac-e95f-4508-adfa-71cc68a31549 page stack"}
+{"level":30,"time":"2025-01-16T03:03:23.312Z","pid":28821,"hostname":"ponto","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:23.317Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:23.317Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:23.322Z","pid":28821,"hostname":"ponto","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:23.322Z","pid":28821,"hostname":"ponto","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:23.325Z","pid":28821,"hostname":"ponto","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-01-16T03:03:23.325Z","pid":28821,"hostname":"ponto","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:23.331Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:23.396Z","pid":28821,"hostname":"ponto","msg":"Video path: undefined"}
+{"level":30,"time":"2025-01-16T03:03:23.397Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:23.873Z","pid":28821,"hostname":"ponto","msg":"End of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:23.945Z","pid":28821,"hostname":"ponto","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:24.054Z","pid":28821,"hostname":"ponto","msg":"End of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:24.058Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:24.058Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:24.085Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:24.088Z","pid":28821,"hostname":"ponto","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:24.088Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:24.108Z","pid":28821,"hostname":"ponto","msg":"Retrieved text for element xpath=//h1[text()=\"Faça seu cadastro\"] containing Faça seu cadastro"}
+{"level":30,"time":"2025-01-16T03:03:24.108Z","pid":28821,"hostname":"ponto","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:24.111Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:24.111Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2025-01-16T03:03:24.124Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:24.126Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:24.126Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2025-01-16T03:03:24.134Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:24.137Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:24.137Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-01-16T03:03:24.145Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:24.147Z","pid":28821,"hostname":"ponto","msg":"Start of node method click"}
+{"level":30,"time":"2025-01-16T03:03:24.147Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-01-16T03:03:24.192Z","pid":28821,"hostname":"ponto","msg":"End of node method click"}
+{"level":30,"time":"2025-01-16T03:03:24.196Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:24.196Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-01-16T03:03:24.225Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:24.228Z","pid":28821,"hostname":"ponto","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:24.228Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=.notice p in page."}
+{"level":30,"time":"2025-01-16T03:03:24.237Z","pid":28821,"hostname":"ponto","msg":"Retrieved text for element css=.notice p containing Oops! Já existe uma conta com o e-mail informado."}
+{"level":30,"time":"2025-01-16T03:03:24.237Z","pid":28821,"hostname":"ponto","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:24.266Z","pid":28821,"hostname":"ponto","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:24.266Z","pid":28821,"hostname":"ponto","Take screenshot with options: ":{"path":"/home/pontouser/Documents/QAx/projects/Robot-eXpress/logs/browser/screenshot/robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-01-16T03:03:24.525Z","pid":28821,"hostname":"ponto","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:24.529Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:24.531Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:24.532Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:24.534Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:24.536Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:24.538Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:24.540Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:24.541Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:24.543Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:24.543Z","pid":28821,"hostname":"ponto","msg":"Changing current active page: page=5cf00587-89fa-4022-b18e-38d257a7bf95"}
+{"level":30,"time":"2025-01-16T03:03:24.543Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:24.546Z","pid":28821,"hostname":"ponto","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:24.551Z","pid":28821,"hostname":"ponto","msg":"Removed page=efd2746b-8410-4023-8171-552a6bc13bf7 from context=a94a0f90-d075-4eeb-8684-38a384b6f6cf page stack"}
+{"level":30,"time":"2025-01-16T03:03:24.565Z","pid":28821,"hostname":"ponto","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:24.569Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:24.570Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:24.574Z","pid":28821,"hostname":"ponto","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:24.574Z","pid":28821,"hostname":"ponto","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:24.576Z","pid":28821,"hostname":"ponto","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:24.576Z","pid":28821,"hostname":"ponto","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-01-16T03:03:24.582Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:24.654Z","pid":28821,"hostname":"ponto","msg":"Video path: undefined"}
+{"level":30,"time":"2025-01-16T03:03:24.654Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:25.058Z","pid":28821,"hostname":"ponto","msg":"End of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:25.072Z","pid":28821,"hostname":"ponto","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:25.119Z","pid":28821,"hostname":"ponto","msg":"End of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:25.122Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:25.122Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:25.145Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:25.147Z","pid":28821,"hostname":"ponto","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:25.148Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:25.169Z","pid":28821,"hostname":"ponto","msg":"Retrieved text for element xpath=//h1[text()=\"Faça seu cadastro\"] containing Faça seu cadastro"}
+{"level":30,"time":"2025-01-16T03:03:25.169Z","pid":28821,"hostname":"ponto","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:25.172Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:25.172Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2025-01-16T03:03:25.184Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:25.187Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:25.187Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2025-01-16T03:03:25.194Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:25.197Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:25.197Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-01-16T03:03:25.205Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:25.207Z","pid":28821,"hostname":"ponto","msg":"Start of node method click"}
+{"level":30,"time":"2025-01-16T03:03:25.208Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-01-16T03:03:25.280Z","pid":28821,"hostname":"ponto","msg":"End of node method click"}
+{"level":30,"time":"2025-01-16T03:03:25.284Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:25.285Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe seu nome completo in page."}
+{"level":30,"time":"2025-01-16T03:03:25.288Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:25.291Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:25.291Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe seu e-email in page."}
+{"level":30,"time":"2025-01-16T03:03:25.294Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:25.297Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:25.297Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
+{"level":30,"time":"2025-01-16T03:03:25.300Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:25.304Z","pid":28821,"hostname":"ponto","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:25.304Z","pid":28821,"hostname":"ponto","Take screenshot with options: ":{"path":"/home/pontouser/Documents/QAx/projects/Robot-eXpress/logs/browser/screenshot/robotframework-browser-screenshot-3.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-01-16T03:03:25.487Z","pid":28821,"hostname":"ponto","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:25.491Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:25.493Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:25.495Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:25.497Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:25.498Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:25.500Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:25.502Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:25.504Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:25.506Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:25.506Z","pid":28821,"hostname":"ponto","msg":"Changing current active page: page=06f16860-0db1-49ac-a0fe-200a451c2d46"}
+{"level":30,"time":"2025-01-16T03:03:25.506Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:25.508Z","pid":28821,"hostname":"ponto","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:25.512Z","pid":28821,"hostname":"ponto","msg":"Removed page=a0c7848c-15dd-4d52-a7af-faacb619732e from context=a5c9e476-9ac7-414b-93ed-370a39908375 page stack"}
+{"level":30,"time":"2025-01-16T03:03:25.527Z","pid":28821,"hostname":"ponto","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:25.533Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:25.533Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:25.537Z","pid":28821,"hostname":"ponto","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:25.537Z","pid":28821,"hostname":"ponto","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:25.541Z","pid":28821,"hostname":"ponto","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:25.541Z","pid":28821,"hostname":"ponto","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-01-16T03:03:25.546Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:25.610Z","pid":28821,"hostname":"ponto","msg":"Video path: undefined"}
+{"level":30,"time":"2025-01-16T03:03:25.610Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:26.038Z","pid":28821,"hostname":"ponto","msg":"End of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:26.047Z","pid":28821,"hostname":"ponto","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:26.107Z","pid":28821,"hostname":"ponto","msg":"End of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:26.111Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:26.111Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:26.133Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:26.137Z","pid":28821,"hostname":"ponto","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:26.137Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:26.157Z","pid":28821,"hostname":"ponto","msg":"Retrieved text for element xpath=//h1[text()=\"Faça seu cadastro\"] containing Faça seu cadastro"}
+{"level":30,"time":"2025-01-16T03:03:26.157Z","pid":28821,"hostname":"ponto","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:26.160Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:26.160Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2025-01-16T03:03:26.172Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:26.174Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:26.174Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2025-01-16T03:03:26.181Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:26.184Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:26.184Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-01-16T03:03:26.193Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:26.195Z","pid":28821,"hostname":"ponto","msg":"Start of node method click"}
+{"level":30,"time":"2025-01-16T03:03:26.195Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-01-16T03:03:26.239Z","pid":28821,"hostname":"ponto","msg":"End of node method click"}
+{"level":30,"time":"2025-01-16T03:03:26.242Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:26.242Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Digite um e-mail válido in page."}
+{"level":30,"time":"2025-01-16T03:03:26.245Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:26.248Z","pid":28821,"hostname":"ponto","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:26.248Z","pid":28821,"hostname":"ponto","Take screenshot with options: ":{"path":"/home/pontouser/Documents/QAx/projects/Robot-eXpress/logs/browser/screenshot/robotframework-browser-screenshot-4.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-01-16T03:03:26.480Z","pid":28821,"hostname":"ponto","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:26.484Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:26.486Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:26.488Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:26.490Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:26.491Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:26.493Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:26.495Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:26.496Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:26.498Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:26.498Z","pid":28821,"hostname":"ponto","msg":"Changing current active page: page=8feeb99e-4c87-45ba-bb08-322e3bad899c"}
+{"level":30,"time":"2025-01-16T03:03:26.498Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:26.500Z","pid":28821,"hostname":"ponto","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:26.504Z","pid":28821,"hostname":"ponto","msg":"Removed page=1379c666-9896-49b2-ba7d-4c6f59b3c272 from context=852239d7-30a2-4819-8fe8-73defc0cda5b page stack"}
+{"level":30,"time":"2025-01-16T03:03:26.516Z","pid":28821,"hostname":"ponto","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:26.522Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:26.522Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:26.526Z","pid":28821,"hostname":"ponto","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:26.526Z","pid":28821,"hostname":"ponto","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:26.528Z","pid":28821,"hostname":"ponto","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:26.528Z","pid":28821,"hostname":"ponto","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-01-16T03:03:26.536Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:26.605Z","pid":28821,"hostname":"ponto","msg":"Video path: undefined"}
+{"level":30,"time":"2025-01-16T03:03:26.605Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:27.011Z","pid":28821,"hostname":"ponto","msg":"End of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:27.029Z","pid":28821,"hostname":"ponto","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:27.077Z","pid":28821,"hostname":"ponto","msg":"End of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:27.079Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:27.079Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:27.101Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:27.103Z","pid":28821,"hostname":"ponto","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:27.103Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:27.122Z","pid":28821,"hostname":"ponto","msg":"Retrieved text for element xpath=//h1[text()=\"Faça seu cadastro\"] containing Faça seu cadastro"}
+{"level":30,"time":"2025-01-16T03:03:27.122Z","pid":28821,"hostname":"ponto","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:27.125Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:27.125Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2025-01-16T03:03:27.137Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:27.139Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:27.139Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2025-01-16T03:03:27.147Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:27.149Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:27.149Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-01-16T03:03:27.157Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:27.159Z","pid":28821,"hostname":"ponto","msg":"Start of node method click"}
+{"level":30,"time":"2025-01-16T03:03:27.159Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-01-16T03:03:27.204Z","pid":28821,"hostname":"ponto","msg":"End of node method click"}
+{"level":30,"time":"2025-01-16T03:03:27.207Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:27.207Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
+{"level":30,"time":"2025-01-16T03:03:27.210Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:27.213Z","pid":28821,"hostname":"ponto","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:27.213Z","pid":28821,"hostname":"ponto","Take screenshot with options: ":{"path":"/home/pontouser/Documents/QAx/projects/Robot-eXpress/logs/browser/screenshot/robotframework-browser-screenshot-5.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-01-16T03:03:27.387Z","pid":28821,"hostname":"ponto","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:27.392Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:27.393Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:27.395Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:27.396Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:27.397Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:27.399Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:27.401Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:27.403Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:27.406Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:27.406Z","pid":28821,"hostname":"ponto","msg":"Changing current active page: page=b2e54ddb-60bf-4b6b-9cdf-8da1b8a6c5fc"}
+{"level":30,"time":"2025-01-16T03:03:27.406Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:27.408Z","pid":28821,"hostname":"ponto","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:27.412Z","pid":28821,"hostname":"ponto","msg":"Removed page=f92e37ed-983f-4731-9616-2725b2e6dce7 from context=c80951c1-958a-404d-a21e-c62ddf0cda0c page stack"}
+{"level":30,"time":"2025-01-16T03:03:27.429Z","pid":28821,"hostname":"ponto","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:27.433Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:27.433Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:27.440Z","pid":28821,"hostname":"ponto","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:27.440Z","pid":28821,"hostname":"ponto","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:27.442Z","pid":28821,"hostname":"ponto","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:27.443Z","pid":28821,"hostname":"ponto","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-01-16T03:03:27.448Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:27.518Z","pid":28821,"hostname":"ponto","msg":"Video path: undefined"}
+{"level":30,"time":"2025-01-16T03:03:27.518Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:27.926Z","pid":28821,"hostname":"ponto","msg":"End of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:27.942Z","pid":28821,"hostname":"ponto","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:27.994Z","pid":28821,"hostname":"ponto","msg":"End of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:27.996Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:27.996Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:28.019Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:28.021Z","pid":28821,"hostname":"ponto","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:28.021Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:28.039Z","pid":28821,"hostname":"ponto","msg":"Retrieved text for element xpath=//h1[text()=\"Faça seu cadastro\"] containing Faça seu cadastro"}
+{"level":30,"time":"2025-01-16T03:03:28.039Z","pid":28821,"hostname":"ponto","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:28.042Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:28.043Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2025-01-16T03:03:28.055Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:28.059Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:28.059Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2025-01-16T03:03:28.067Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:28.072Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:28.072Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-01-16T03:03:28.078Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:28.081Z","pid":28821,"hostname":"ponto","msg":"Start of node method click"}
+{"level":30,"time":"2025-01-16T03:03:28.081Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-01-16T03:03:28.124Z","pid":28821,"hostname":"ponto","msg":"End of node method click"}
+{"level":30,"time":"2025-01-16T03:03:28.127Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:28.127Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
+{"level":30,"time":"2025-01-16T03:03:28.130Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:28.133Z","pid":28821,"hostname":"ponto","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:28.133Z","pid":28821,"hostname":"ponto","Take screenshot with options: ":{"path":"/home/pontouser/Documents/QAx/projects/Robot-eXpress/logs/browser/screenshot/robotframework-browser-screenshot-6.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-01-16T03:03:28.365Z","pid":28821,"hostname":"ponto","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:28.369Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:28.371Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:28.373Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:28.375Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:28.377Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:28.379Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:28.381Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:28.382Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:28.384Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:28.384Z","pid":28821,"hostname":"ponto","msg":"Changing current active page: page=81902d75-3f23-491f-9062-6aa1bbeb724f"}
+{"level":30,"time":"2025-01-16T03:03:28.384Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:28.386Z","pid":28821,"hostname":"ponto","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:28.391Z","pid":28821,"hostname":"ponto","msg":"Removed page=43f2487f-ca99-42b7-987c-7ec86af95a9b from context=a7787a75-d3d1-4097-a708-a82b046952f7 page stack"}
+{"level":30,"time":"2025-01-16T03:03:28.403Z","pid":28821,"hostname":"ponto","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:28.410Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:28.410Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:28.413Z","pid":28821,"hostname":"ponto","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:28.413Z","pid":28821,"hostname":"ponto","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:28.415Z","pid":28821,"hostname":"ponto","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:28.415Z","pid":28821,"hostname":"ponto","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-01-16T03:03:28.422Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:28.498Z","pid":28821,"hostname":"ponto","msg":"Video path: undefined"}
+{"level":30,"time":"2025-01-16T03:03:28.498Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:28.917Z","pid":28821,"hostname":"ponto","msg":"End of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:28.935Z","pid":28821,"hostname":"ponto","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:28.984Z","pid":28821,"hostname":"ponto","msg":"End of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:28.988Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:28.988Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:29.012Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:29.014Z","pid":28821,"hostname":"ponto","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:29.014Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:29.032Z","pid":28821,"hostname":"ponto","msg":"Retrieved text for element xpath=//h1[text()=\"Faça seu cadastro\"] containing Faça seu cadastro"}
+{"level":30,"time":"2025-01-16T03:03:29.032Z","pid":28821,"hostname":"ponto","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:29.035Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:29.036Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2025-01-16T03:03:29.048Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:29.050Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:29.050Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2025-01-16T03:03:29.059Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:29.061Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:29.061Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-01-16T03:03:29.068Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:29.072Z","pid":28821,"hostname":"ponto","msg":"Start of node method click"}
+{"level":30,"time":"2025-01-16T03:03:29.072Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-01-16T03:03:29.128Z","pid":28821,"hostname":"ponto","msg":"End of node method click"}
+{"level":30,"time":"2025-01-16T03:03:29.132Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:29.132Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
+{"level":30,"time":"2025-01-16T03:03:29.135Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:29.139Z","pid":28821,"hostname":"ponto","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:29.139Z","pid":28821,"hostname":"ponto","Take screenshot with options: ":{"path":"/home/pontouser/Documents/QAx/projects/Robot-eXpress/logs/browser/screenshot/robotframework-browser-screenshot-7.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-01-16T03:03:29.399Z","pid":28821,"hostname":"ponto","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:29.403Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:29.405Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:29.407Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:29.409Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:29.411Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:29.412Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:29.415Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:29.416Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:29.418Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:29.418Z","pid":28821,"hostname":"ponto","msg":"Changing current active page: page=b1cdda8e-df18-49f5-b760-030ece00bbff"}
+{"level":30,"time":"2025-01-16T03:03:29.418Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:29.420Z","pid":28821,"hostname":"ponto","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:29.425Z","pid":28821,"hostname":"ponto","msg":"Removed page=6f2c2976-60f2-4339-a655-ba38699c45d6 from context=91da8d79-7557-4f9d-a1bb-a6a2df88f56e page stack"}
+{"level":30,"time":"2025-01-16T03:03:29.442Z","pid":28821,"hostname":"ponto","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:29.449Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:29.449Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:29.452Z","pid":28821,"hostname":"ponto","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:29.452Z","pid":28821,"hostname":"ponto","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:29.457Z","pid":28821,"hostname":"ponto","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:29.457Z","pid":28821,"hostname":"ponto","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-01-16T03:03:29.464Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:29.530Z","pid":28821,"hostname":"ponto","msg":"Video path: undefined"}
+{"level":30,"time":"2025-01-16T03:03:29.530Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:29.955Z","pid":28821,"hostname":"ponto","msg":"End of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:29.970Z","pid":28821,"hostname":"ponto","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:30.023Z","pid":28821,"hostname":"ponto","msg":"End of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:30.027Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:30.027Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:30.050Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:30.052Z","pid":28821,"hostname":"ponto","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:30.052Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:30.072Z","pid":28821,"hostname":"ponto","msg":"Retrieved text for element xpath=//h1[text()=\"Faça seu cadastro\"] containing Faça seu cadastro"}
+{"level":30,"time":"2025-01-16T03:03:30.072Z","pid":28821,"hostname":"ponto","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:30.074Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:30.074Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2025-01-16T03:03:30.085Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:30.088Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:30.088Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2025-01-16T03:03:30.095Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:30.098Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:30.098Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-01-16T03:03:30.105Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:30.108Z","pid":28821,"hostname":"ponto","msg":"Start of node method click"}
+{"level":30,"time":"2025-01-16T03:03:30.108Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-01-16T03:03:30.156Z","pid":28821,"hostname":"ponto","msg":"End of node method click"}
+{"level":30,"time":"2025-01-16T03:03:30.159Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:30.159Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
+{"level":30,"time":"2025-01-16T03:03:30.162Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:30.165Z","pid":28821,"hostname":"ponto","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:30.165Z","pid":28821,"hostname":"ponto","Take screenshot with options: ":{"path":"/home/pontouser/Documents/QAx/projects/Robot-eXpress/logs/browser/screenshot/robotframework-browser-screenshot-8.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-01-16T03:03:30.407Z","pid":28821,"hostname":"ponto","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:30.411Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:30.413Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:30.414Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:30.416Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:30.417Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:30.419Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:30.422Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:30.424Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:30.426Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:30.426Z","pid":28821,"hostname":"ponto","msg":"Changing current active page: page=52503974-d1c6-495d-ae85-aa24554b4879"}
+{"level":30,"time":"2025-01-16T03:03:30.426Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:30.428Z","pid":28821,"hostname":"ponto","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:30.433Z","pid":28821,"hostname":"ponto","msg":"Removed page=2ba8b3a1-6a56-438f-ab44-5d61d30bbfcf from context=e371c836-08c7-47b2-8ed9-6ffff836f0c7 page stack"}
+{"level":30,"time":"2025-01-16T03:03:30.450Z","pid":28821,"hostname":"ponto","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:30.455Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:30.455Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:30.459Z","pid":28821,"hostname":"ponto","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:30.459Z","pid":28821,"hostname":"ponto","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-01-16T03:03:30.461Z","pid":28821,"hostname":"ponto","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:30.461Z","pid":28821,"hostname":"ponto","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-01-16T03:03:30.468Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:30.532Z","pid":28821,"hostname":"ponto","msg":"Video path: undefined"}
+{"level":30,"time":"2025-01-16T03:03:30.532Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:30.947Z","pid":28821,"hostname":"ponto","msg":"End of node method newPage"}
+{"level":30,"time":"2025-01-16T03:03:30.962Z","pid":28821,"hostname":"ponto","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:31.010Z","pid":28821,"hostname":"ponto","msg":"End of node method goTo"}
+{"level":30,"time":"2025-01-16T03:03:31.012Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:31.012Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:31.036Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:31.039Z","pid":28821,"hostname":"ponto","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:31.039Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with xpath=//h1[text()=\"Faça seu cadastro\"] in page."}
+{"level":30,"time":"2025-01-16T03:03:31.058Z","pid":28821,"hostname":"ponto","msg":"Retrieved text for element xpath=//h1[text()=\"Faça seu cadastro\"] containing Faça seu cadastro"}
+{"level":30,"time":"2025-01-16T03:03:31.058Z","pid":28821,"hostname":"ponto","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-16T03:03:31.061Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:31.061Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=name in page."}
+{"level":30,"time":"2025-01-16T03:03:31.073Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:31.076Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:31.076Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2025-01-16T03:03:31.083Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:31.085Z","pid":28821,"hostname":"ponto","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:31.085Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2025-01-16T03:03:31.096Z","pid":28821,"hostname":"ponto","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-16T03:03:31.098Z","pid":28821,"hostname":"ponto","msg":"Start of node method click"}
+{"level":30,"time":"2025-01-16T03:03:31.098Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=button[type=submit] >> text=Cadastrar in page."}
+{"level":30,"time":"2025-01-16T03:03:31.143Z","pid":28821,"hostname":"ponto","msg":"End of node method click"}
+{"level":30,"time":"2025-01-16T03:03:31.146Z","pid":28821,"hostname":"ponto","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:31.146Z","pid":28821,"hostname":"ponto","msg":"Strict mode is enabled, find Locator with css=.alert-error >> text=Informe uma senha com pelo menos 6 digitos in page."}
+{"level":30,"time":"2025-01-16T03:03:31.149Z","pid":28821,"hostname":"ponto","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-16T03:03:31.151Z","pid":28821,"hostname":"ponto","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:31.151Z","pid":28821,"hostname":"ponto","Take screenshot with options: ":{"path":"/home/pontouser/Documents/QAx/projects/Robot-eXpress/logs/browser/screenshot/robotframework-browser-screenshot-9.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-01-16T03:03:31.398Z","pid":28821,"hostname":"ponto","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-01-16T03:03:31.402Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:31.404Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:31.406Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:31.408Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:31.409Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:31.411Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:31.413Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:31.414Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:31.416Z","pid":28821,"hostname":"ponto","msg":"Changed active context"}
+{"level":30,"time":"2025-01-16T03:03:31.416Z","pid":28821,"hostname":"ponto","msg":"Changing current active page: page=6de487c5-1c13-42ec-8072-a6289a150377"}
+{"level":30,"time":"2025-01-16T03:03:31.416Z","pid":28821,"hostname":"ponto","msg":"Changed active page"}
+{"level":30,"time":"2025-01-16T03:03:31.418Z","pid":28821,"hostname":"ponto","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:31.422Z","pid":28821,"hostname":"ponto","msg":"Removed page=fa40b49d-1abe-49ff-992a-26a9232ed20a from context=e2103f3e-74e0-45fe-90d2-a84ef5c904bb page stack"}
+{"level":30,"time":"2025-01-16T03:03:31.436Z","pid":28821,"hostname":"ponto","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-01-16T03:03:31.442Z","pid":28821,"hostname":"ponto","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:31.442Z","pid":28821,"hostname":"ponto","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-16T03:03:31.924Z","pid":28821,"hostname":"ponto","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-01-16T03:03:32.033Z","pid":28821,"hostname":"ponto","msg":"End of node method closeAllBrowsers"}
