@@ -98,8 +98,8 @@ Short password
     [Arguments]    ${short_pass}
    
     ${user}    Create Dictionary    
-    ...    name=${EMPTY}    
-    ...    email=${EMPTY}       
+    ...    name=Lucas  
+    ...    email=lucas@gmail.com    
     ...    password=${short_pass}  
     
     Go to signup Page
