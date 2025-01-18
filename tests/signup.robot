@@ -91,7 +91,7 @@ Não deve cadastar conta com senha de 4 digito
     [Tags]    short_pass
     [Template]
     Short password    123b
-
+    
 *** Keywords ***
 
 Short password
@@ -106,3 +106,4 @@ Short password
     Submit signup from    ${user}
 
     Alert should be     Informe uma senha com pelo menos 6 digitos
+
